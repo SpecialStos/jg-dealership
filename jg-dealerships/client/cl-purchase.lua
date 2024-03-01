@@ -1,5 +1,3 @@
-DoScreenFadeIn(100)
-
 RegisterNUICallback("purchase-vehicle", function(data, cb)
   local dealership = Config.DealershipLocations[data.dealership]
 
